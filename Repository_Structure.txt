@@ -1,0 +1,34 @@
+ 
+ai-text-assistant/
+├── .github/
+│   └── workflows/
+│       └── python-app.yml
+├── src/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── ui/
+│   │   ├── __init__.py
+│   │   ├── main_window.py
+│   │   ├── settings_dialog.py
+│   │   └── styles.py
+│   ├── core/
+│   │   ├── __init__.py
+│   │   ├── text_processor.py
+│   │   └── api_handler.py
+│   └── utils/
+│       ├── __init__.py
+│       └── config.py
+├── tests/
+│   ├── __init__.py
+│   ├── test_text_processor.py
+│   └── test_api_handler.py
+├── docs/
+│   ├── aboutme.txt
+│   ├── aboutme.html
+│   └── images/
+│       └── screenshot.png
+├── requirements.txt
+├── setup.py
+├── README.md
+├── LICENSE
+└── .gitignore
