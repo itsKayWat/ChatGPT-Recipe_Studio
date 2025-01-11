@@ -2,9 +2,9 @@ import sys
 from datetime import datetime
 from PyQt6.QtWidgets import (QApplication, QMainWindow, QWidget, QVBoxLayout, 
                             QHBoxLayout, QPushButton, QTextEdit, QComboBox, 
-                            QLabel, QStackedWidget, QLineEdit, QDialog, 
-                            QFormLayout, QMessageBox, QProgressBar, QSpinBox, 
-                            QToolTip, QFileDialog, QStatusBar)
+                            QLabel, QStackedWidget, QLineEdit, 
+                            QDialog, QFormLayout, QMessageBox, QProgressBar, 
+                            QSpinBox, QToolTip, QFileDialog, QStatusBar)
 from PyQt6.QtCore import Qt, QSettings, QTimer
 from PyQt6.QtGui import QIcon, QColor, QTextCursor
 import keyboard
@@ -275,7 +275,10 @@ class ChatGPTRecipes(QMainWindow):
                     "rephrase": "This is a test rephrasing of your text.",
                     "summarize": "This is a test summary of your text.",
                     "reply": "This is a test reply to your text.",
-                    "email": "This is a test email based on your text."
+                    "email": "This is a test email based on your text.",
+                    "translate": "This is a test translation of your text.",
+                    "grammar_correction": "This is a test grammar correction of your text.",
+                    "sentiment_analysis": "This is a test sentiment analysis of your text."
                 }
                 
                 test_response = (
